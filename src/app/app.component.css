@@ -52,7 +52,7 @@
 .carousel {
     background-color: #4829fa;
     color: white;
-    height: 600px;
+    height: 700px;
     font-size: 25px;
     padding-top: 10px;
     text-align: left;
@@ -62,12 +62,13 @@
 
 .carousel-control-prev,
 .carousel-control-next{
-    bottom: -85%;
+    height: 0px;
+    top: 95%;
 }
 
 .carousel-indicators li {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 100%;
 }
 
