@@ -10,6 +10,6 @@ export class AppComponent implements OnInit {
   title = 'Ryan Hernandez';
 
   ngOnInit(): void {
-    TweenLite.from('.crop', 1, { autoAlpha: 0, x: -150 });
+    // TweenLite.from('.crop', 1, { autoAlpha: 0, x: -150 });
   }
 }
