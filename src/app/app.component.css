@@ -2,7 +2,7 @@
     background: white;
     border-bottom: 1px solid black;
     opacity: 0.95;
-    z-index: 10;
+    z-index: 100001;
 }
 
 .navbar-brand {
@@ -34,6 +34,16 @@
     padding-right: 50px;
 }
 
+/* Anchor CSS */
+#experience-link {
+    padding-top: 110px;
+    margin-top: -110px;
+}
+
+#project-link {
+    padding-top: 110px;
+    margin-top: -110px;
+}
 
 /* CSS for the app  */
 * {
@@ -42,7 +52,7 @@
 
 .about {
     height: 100px;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: lighter;
     text-align: right;
     background-color: #4829fa;
@@ -54,8 +64,8 @@
 .carousel {
     background-color: #4829fa;
     color: white;
-    height: 700px;
-    font-size: 25px;
+    height: 600px;
+    font-size: 22px;
     padding-top: 10px;
     text-align: left;
     padding-left: 30px;
@@ -202,7 +212,7 @@ left: -16px;
     background-color: white;
     position: relative;
     border-radius: 6px;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
 }
   
