@@ -28,17 +28,17 @@
 <!-- Main Page -->
 <div class="col-sm-12">
   <div align="center">
-    <div class="col-sm-10">
+    <div class="col-sm-12">
       <div class="box">
 
         <!-- About Section -->
         <div class="row">
-          <div class="col-sm-6" id="aboutme-link" style="padding-top: 100px;">
+          <div class="col-sm-5" id="aboutme-link" style="padding-top: 50px;">
             <div class="crop">
               <img src="assets/ryanandbrittni.png">
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-7">
             <div class="about">
               About Me
             </div>
@@ -84,7 +84,7 @@
                   semester I will be taking a course in
                   intelligent robotics. <br>
                   In my personal life, I have worked on some projects (that I will expand upon further below) involving
-                  data analytics and iOS development.
+                  data analytics and computer security.
                 </div>
               </div>
               <a class="carousel-control-prev" href="#aboutCarouselIndicators" role="button" data-slide="prev">
@@ -101,12 +101,12 @@
 
         <!-- Resume Section -->
         <div class="row" align="left">
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <div class="resume-title" id="experience-link">
               Experience
             </div>
           </div>
-          <div class="col-sm-6" id="experience">
+          <div class="col-sm-7" id="experience">
             <div class="resume">
               <div class="resume-container left">
                 <div class="content">
@@ -115,14 +115,17 @@
                   <br>
                   <ul>
                     <li>
-                      Full stack development of web based applications mainly using the .NET Framework and Angular
+                      Full stack development of web-based applications including creating, from the ground up, a web
+                      page to track standard compliance throughout the company, saving the company thousands of hours in
+                      compliance auditing.
                     </li>
                     <li>
-                      Experienced with Azure DevOps including CI/CD using Azure Pipelines
+                      Experienced with Azure DevOps including the implementation of deployment pipelines in new and
+                      existing codebases.
                     </li>
                     <li>
                       Versed in complete software life cycle from preliminary needs analysis to enterprise-wide
-                      deployment and support
+                      deployment and support.
                     </li>
                   </ul>
                 </div>
@@ -164,41 +167,48 @@
 
         <!-- Projects Section -->
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-5">
             <div class="projects-title" id="project-link">
               Projects
             </div>
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-7">
             <div class="projects">
-              <div id="projectCarouselIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-                <ol class="carousel-indicators">
-                  <li data-target="#projectCarouselIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#projectCarouselIndicators" data-slide-to="1"></li>
-                  <li data-target="#projectCarouselIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <br><br>
-                    Adding in future update
-                  </div>
-                  <div class="carousel-item">
-                    <br><br>
-                    Adding in future update
-                  </div>
-                  <div class="carousel-item">
-                    <br><br>
-                    Adding in future update
+              <!-- Nav tabs -->
+              <nav style="padding-top: 20px;">
+                <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Standards Adherence</a>
+                  <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab"
+                    aria-controls="nav-profile" aria-selected="false">Basketball Statistics Application</a>
+                  <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab"
+                    aria-controls="nav-contact" aria-selected="false">Keyless Entry Authentication</a>
+                </div>
+              </nav>
+
+              <!-- Tab panes -->
+              <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div>
+                    A single-page application for tracking compliance to security standards for each system across the
+                    company. The application quantifies adherence and total hours for remediation, as well as automates
+                    email reminders for auditing the compliance of each system in the business. <br><br>
+                    <strong>Technologies Used</strong>: C#, Angular, .NET Framework, Hangfire, Azure DevOps
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#projectCarouselIndicators" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#projectCarouselIndicators" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                  An application that parses and manipulates NBA player statistics gathered using a web scraper created
+                  to collect all Per Game and Per 36 Minutes statistics for every player in the history of the NBA as
+                  .CSV files. <br><br>
+                  <strong>Technologies Used</strong>: Java, Python, Beautiful Soup Library
+                </div>
+                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                  End of year project for class in Computer Security which serves as an implementation of security
+                  improvements for keyless entry vehicles through multi-factor authentication of key fob transmissions
+                  as well as time interval caps of authentication attempts, greatly enhancing the security of vehicles
+                  that utilize this feature. <br><br>
+                  <strong>Technologies Used</strong>: C#, .NET Core, Twilio, Azure SQL Database
+                </div>
               </div>
             </div>
           </div>
